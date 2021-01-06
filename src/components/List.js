@@ -25,8 +25,8 @@ export class List extends Component {
                     <hr />
                     {data.map((item, key) =>
                         <div key={key}>
-                        <h2  className= "Kommunrubrik">{item.namn}</h2>
-                            <p className = "Kommunlänk"><Link to={`/test-app/skattesats/${item.kod}`}>skattesats</Link> <Link to={`/skattekraft/${item.kod}`}>skattekraft</Link></p>
+                        <h2 className= "Kommunrubrik">{item.namn}</h2>
+                            <p className = "Kommunlänk"><Link to={`/test-app/skattesats/${item.kod}`}>skattesats</Link> <Link to={`/test-app/skattekraft/${item.kod}`}>skattekraft</Link></p>
                         <hr />
                         </div>
                     )}
