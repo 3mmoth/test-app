@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
-import kommundata from '../data/kommun.json';
-import AndelRiksChart from '../charts/AndelRiksChart.js';
-import SkatteunderlagChart from '../charts/SkatteunderlagChart.js';
-import SkattekraftChart from '../charts/SkattekraftChart.js'
+import kommundata from './kommun.json';
+import AndelRiksChart from './AndelRiksChart.js';
+import SkatteunderlagChart from './SkatteunderlagChart.js';
+import SkattekraftChart from './SkattekraftChart.js'
 import {Row, Col} from 'reactstrap';
 
 export class Skattekraft extends Component{
@@ -87,7 +87,7 @@ export class Skattekraft extends Component{
                       <p>Andel av riksmedelvärdet: <strong>{skatteuppgifter.data[0].values[2]} %</strong></p>
                     <hr />
 
-                <Link to='/'>Tillbaka</Link>
+                <Link to='/test-app/'>Tillbaka</Link>
             </div>
             ) : (
             <h3>Laddar...</h3>

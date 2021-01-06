@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
-import kommundata from '../data/kommun.json';
-import PieChart from '../charts/PieChart.js';
+import kommundata from './kommun.json';
+import PieChart from './PieChart.js';
 
 
 
@@ -86,7 +86,7 @@ export class Skattesats extends Component{
                           <p>Landstingsskatt: <strong>{skattesats.data[0].values[2]} %</strong></p>   
                         </div>
                     <hr />  
-                <Link to='/'>Tillbaka</Link>
+                <Link to='/test-app/'>Tillbaka</Link>
             </div>
             ) : (
             <h3>Laddar...</h3>

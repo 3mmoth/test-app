@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import { Col, Row } from 'reactstrap';
-import data from '../data/kommun.json';
-import logo from '../../logos/ostergotland.svg';
+import data from './kommun.json';
+import logo from '../logos/ostergotland.svg';
 
 export class List extends Component {
     render() {
