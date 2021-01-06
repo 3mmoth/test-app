@@ -1,31 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@500&family=Source+Sans+Pro:wght@300;600&display=swap');
+
 .App {
   text-align: center;
+  background-color: #F8EAEA;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
   pointer-events: none;
+  margin-top: 5vmin;
+  margin-bottom: 5vmin;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-header-h1 {
+  margin-top: 5vmin;
+  vertical-align: middle;
+  color: #D40000;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #FFCD50;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 3vmin;
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App-footer {
+  background-color: #FFCD50;
+  margin-top: 20px;
+  padding-top: 20px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #707070;
+}
+
+.Kommuntext{
+  margin-top: 10vmin;
+  margin-bottom: 5vmin;
+  width: 75%;
+  margin-right:auto;
+  margin-left: auto;
+  font-family: 'Lora', serif;
+}
+.Mellanrubrik{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.Kommunrubrik{
+  font-size: 12px;
+}
+.Kommunlänk{
+  font-size: 9px;
+}
+
+.Footertext{
+  font-size: 11px;
+  font-family: 'Lora', serif;
 }
 
 @keyframes App-logo-spin {

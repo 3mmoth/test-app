@@ -1,0 +1,54 @@
+[
+    {
+        "namn": "Boxholm",
+        "kod": "0560"
+    },
+    {
+        "namn": "Finspång",
+        "kod": "0562"
+    },
+    {
+        "namn": "Kinda",
+        "kod": "0513"
+    },
+    {
+        "namn": "Linköping",
+        "kod": "0580"
+    },
+    {
+        "namn": "Mjölby",
+        "kod": "0586"
+    },
+    {
+        "namn": "Motala",
+        "kod": "0583"
+    },
+    {
+        "namn": "Norrköping",
+        "kod": "0581"
+    },
+    {
+        "namn": "Söderköping",
+        "kod": "0582"
+    },
+    {
+        "namn": "Vadstena",
+        "kod": "0584"
+    },
+    {
+        "namn": "Valdemarsvik",
+        "kod": "0563"
+    },
+    {
+        "namn": "Ydre",
+        "kod": "0512"
+    },
+    {
+        "namn": "Åtvidaberg",
+        "kod": "0561"
+    },
+    {
+        "namn": "Ödeshög",
+        "kod": "0509"
+    }
+]
