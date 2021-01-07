@@ -16,9 +16,9 @@ function App() {
       <Header />
 
       <Switch>
-        <Route path="/test-app/" exact component= {withRouter(List)}/>
-        <Route path="/test-app/skattesats/:id" exact component= {withRouter(Skattesats)}/>
-        <Route path="/test-app/skattekraft/:id" exact component = {withRouter(Skattekraft)}/>
+        <Route path="/" exact component= {withRouter(List)}/>
+        <Route path="/skattesats/:id" exact component= {withRouter(Skattesats)}/>
+        <Route path="/skattekraft/:id" exact component = {withRouter(Skattekraft)}/>
       </Switch>
 
       <Footer />
