@@ -16,7 +16,7 @@ export class Skattesats extends Component{
     }
     
     fetchSkattesats(id){
-        const url = `http://api.scb.se/OV0104/v1/doris/sv/ssd/START/OE/OE0101/Kommunalskatter2000`
+        const url = `https://api.scb.se/OV0104/v1/doris/sv/ssd/START/OE/OE0101/Kommunalskatter2000`
         let kommun = kommundata.find(el => el.kod === `${id}`);
         let data = {
           "query": [
@@ -86,7 +86,7 @@ export class Skattesats extends Component{
                           <p>Landstingsskatt: <strong>{skattesats.data[0].values[2]} %</strong></p>   
                         </div>
                     <hr />  
-                <Link to='/test-app/'>Tillbaka</Link>
+                <Link to='/'>Tillbaka</Link>
             </div>
             ) : (
             <h3>Laddar...</h3>

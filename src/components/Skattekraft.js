@@ -15,7 +15,7 @@ export class Skattekraft extends Component{
     }
 
     fetchSkatteuppgifter(id){
-      const url = `http://api.scb.se/OV0104/v1/doris/sv/ssd/START/OE/OE0101/SkatteKraft`
+      const url = `https://api.scb.se/OV0104/v1/doris/sv/ssd/START/OE/OE0101/SkatteKraft`
       let kommun = kommundata.find(el => el.kod === `${id}`);
       let data = {
         "query": [
@@ -87,7 +87,7 @@ export class Skattekraft extends Component{
                       <p>Andel av riksmedelvärdet: <strong>{skatteuppgifter.data[0].values[2]} %</strong></p>
                     <hr />
 
-                <Link to='/test-app/'>Tillbaka</Link>
+                <Link to='/'>Tillbaka</Link>
             </div>
             ) : (
             <h3>Laddar...</h3>

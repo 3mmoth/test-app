@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch, withRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, withRouter } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { List } from './components/List';
@@ -14,7 +14,6 @@ function App() {
     <Router>
     <div className="App">
       <Header />
-
       <Switch>
         <Route path="/" exact component= {withRouter(List)}/>
         <Route path="/skattesats/:id" exact component= {withRouter(Skattesats)}/>
